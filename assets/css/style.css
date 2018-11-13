@@ -1,0 +1,95 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+
+p{
+    margin: 16px 0;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 10px 10px;
+}
+
+#header{
+    color: white;
+    background-color: darkorange;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    width: 300px;
+    height: 100px;
+    margin: 10px 0 10px 10px;
+}
+
+#instructions{
+    color: darkorange;
+    background-color: bisque;
+    font-size: 16px;
+    font-weight: bold;
+    width: 500px;
+    height: 300px;
+    margin: 10px 0 10px 10px;
+}
+
+#score-needed{
+    color: purple;
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+    width: 250px;
+    height: 120px;
+    margin: 0 0 10px 10px;
+    float: left;
+}
+
+#wins-losses{
+    color: green;
+    background-color: skyblue;
+    font-size: 16px;
+    width: 80px;
+    height: 120px;
+    margin: 0 0 10px 10px;
+    float: left;
+}
+
+#gem1{
+    clear: both;
+    float: left;
+}
+#gem2{
+    float: left;
+}
+#gem3{
+    float: left;
+}
+#gem4{
+    float: left;
+}
+
+#total-score-message{
+    clear: both;
+    color: white;
+    background-color: green;
+    font-size: 16px;
+    line-height: 24px;
+    width: 250px;
+    height: 24px;
+    margin: 10px 0 10px 10px;
+}
+
+#total-score{
+    clear: both;
+    color: white;
+    background-color: green;
+    font-size: 16px;
+    width: 250px;
+    height: 180px;
+    margin: 10px 0 10px 10px;
+}
+
+
