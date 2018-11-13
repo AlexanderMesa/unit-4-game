@@ -33,7 +33,7 @@ function resetGame(){
     $("#wins-losses").append("Losses: " + losses);
 }
 
-//Gets the number of the gem that was clicked and increases the total score by that gem's value.
+//Gets the number (value assigned in index.html) of the gem that was clicked and increases the total score by that gem's random number.
 //User wins if total score matches the score needed and loses if the total score is greater than the score needed.
 $("div").on("click", function(e){
     var gemNumber = e.currentTarget.getAttribute('value');
@@ -50,54 +50,3 @@ $("div").on("click", function(e){
         }
     }
 })
-  
-/*
-$("#gem1").on("click", function(){
-    totalScore = totalScore + gem1;
-    $("#total-score").text(totalScore);
-    if (totalScore === scoreNeeded){
-        wins++;
-        resetGame();
-    }
-    if (totalScore > scoreNeeded){
-        losses++;
-        resetGame();
-    }
-})
-$("#gem2").on("click", function(){
-    totalScore = totalScore + gem2;
-    $("#total-score").text(totalScore);
-    if (totalScore === scoreNeeded){
-        wins++;
-        resetGame();
-    }
-    if (totalScore > scoreNeeded){
-        losses++;
-        resetGame();
-    }
-})
-$("#gem3").on("click", function(){
-    totalScore = totalScore + gem3;
-    $("#total-score").text(totalScore);
-    if (totalScore === scoreNeeded){
-        wins++;
-        resetGame();
-    }
-    if (totalScore > scoreNeeded){
-        losses++;
-        resetGame();
-    }
-})
-$("#gem4").on("click", function(){
-    totalScore = totalScore + gem4;
-    $("#total-score").text(totalScore);
-    if (totalScore === scoreNeeded){
-        wins++;
-        resetGame();
-    }
-    if (totalScore > scoreNeeded){
-        losses++;
-        resetGame();
-    }
-})
-*/
