@@ -49,4 +49,4 @@ $("div").on("click", function(e){
             resetGame();
         }
     }
-})
+});
