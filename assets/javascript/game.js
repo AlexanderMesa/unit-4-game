@@ -13,7 +13,7 @@ var losses = 0;
 $("#score-needed").text(scoreNeeded);
 $("#total-score").text(totalScore);
 $("#wins-losses").text("Wins: " + wins);
-$("#wins-losses").append("<br />")
+$("#wins-losses").append("<br />");
 $("#wins-losses").append("Losses: " + losses);
 
 //Function that resets the game if the player wins or loses
@@ -29,7 +29,7 @@ function resetGame(){
     $("#score-needed").text(scoreNeeded);
     $("#total-score").text(totalScore);
     $("#wins-losses").text("Wins: " + wins);
-    $("#wins-losses").append("<br />")
+    $("#wins-losses").append("<br />");
     $("#wins-losses").append("Losses: " + losses);
 }
 
