@@ -23,7 +23,7 @@ function resetGame(){
     gem3 = Math.floor(Math.random() * 12) + 1;
     gem4 = Math.floor(Math.random() * 12) + 1;
     gemArray = [gem1, gem2, gem3, gem4];
-    scoreNeeded = Math.floor(Math.random() * 108) + 19;
+    scoreNeeded = Math.floor(Math.random() * 102) + 19;
     totalScore = 0;
 
     $("#score-needed").text(scoreNeeded);
